@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.row {
+    width: 100%;
+    height: 20vh;
+    padding: 2.5% 5%;
+}
+
+.row a {
+    line-height: 10vh;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10vh;
+    cursor: pointer;
+}
+
+.row a:hover {
+    font-weight: 700;
+}
+
+.heading {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+#header {
+    position: fixed;
+    padding: 0% 2.5%;
+    height: 5vh;
+    color: #000;
+    background-color: #fff;
+}
+
+#header a {
+    padding-right: 10px;
+    line-height: 5vh;
+    font-size: 1em;
+}
+
+#filler {
+    height: 5vh;
+    padding: 0% 2.5%;
+}
+
+#footer {
+    height: 10vh;
+    color: #fff;
+    background-color: #000;
+}
+
+#footer a {
+    line-height: 10vh;
+    font-size: 1em;
+}
+
+#irod {
+    color: #ffffff;
+    background-color: #000;
+}
+
+#psmag {
+    color: #000;
+    background-color: #fff;
+}
+
+#books {
+    color: #ffffff;
+    background-color: #000;
+}
+
+#collages {
+    color: #000;
+    background-color: #fff;
+}
+
+.preview {
+    display: none;
+    height: 100%;
+    width: auto;
+}
+
+.subpreview {
+    height: 100%;
+    width: auto;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.subpreview:hover { 
+    filter: none;
+    transition: .5s;
+}
+
+.whiteArrow {
+    height: 100%;
+    cursor: pointer;
+    filter: invert(100%);
+    transition: .5s;
+}
+
+.blackArrow {
+    height: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.transition {
+    display: inline-block;
+    transition: .5s;
+}
+
+.flip {
+    transform: scaleX(-1);
+    transition: .5s;
+}
